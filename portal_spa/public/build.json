@@ -1,0 +1,6 @@
+{
+    "css/styles.css": ["public/css/style.css"],
+    "js/main-es5.js": ["public/js/main-es5.js"],
+    "js/polyfills-es5.js": ["public/js/polyfills-es5.js"],
+    "js/runtime-es5.js": ["public/js/runtime-es5.js"]
+}

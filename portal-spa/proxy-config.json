@@ -1,0 +1,11 @@
+{
+    "/api":{
+        "target": "http://testportalspa.localhost:8000"
+    },
+    "/":{
+        "target": "http://testportalspa.localhost:8000"
+    },
+    "/login":{
+        "target": "http://testportalspa.localhost:8000"
+    }
+}
