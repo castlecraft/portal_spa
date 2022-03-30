@@ -7,6 +7,5 @@ popd
 mv portal-spa/dist/portal-spa/*.js portal_spa/public/js
 mv portal-spa/dist/portal-spa/*.css portal_spa/public/css
 pushd ../..
-bench build
+bench build --app portal_spa
 popd
-

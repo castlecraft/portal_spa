@@ -14,10 +14,10 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.http
-      .get('/api/method/frappe.integrations.oauth2.openid_profile')
+      .get('/api/method/frappe.auth.get_logged_user')
       .subscribe({
-        next: (response: { given_name: string }) => {
-          this.fullName = response.given_name;
+        next: (response: { message: string }) => {
+          this.fullName = response.message;
         },
         error: this.redirectToLogin,
       });
